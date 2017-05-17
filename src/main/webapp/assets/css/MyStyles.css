@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+.main-text{
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.table{
+    text-align: center;
+}
+
+.file-btn{
+	height: 35px;
+	width: 90px;
+}
+
+.alert {
+	padding: 20px;
+	color: white;
+	margin-bottom: 15px;
+}
+.error {
+	background-color: #f44336;
+}
+
+.success {
+	background-color: green;
+}
+
+.info {
+	background-color: lightblue;
+}
+
+/* The close button */
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+	color: black;
+}
+
+#exampleInputFile{
+	visibility: hidden;
+}
+
+section{
+	padding-top: 100px;
+}
+
+.table th{
+    text-align: center;
+}
+
+.main-text p{
+  font-size : medium;	
+}
+
+.my-header{
+	padding-right: 50px;
+}
+
+.header-menu{
+	padding: 20px;
+}
+
+.header-img{
+    width: 100px;
+    height: 50px;
+}
+
+.footer-text{
+	color : white;
+	text-align: center;
+	padding-top: 10px; 
+}
+
+.footer{
+	background-color: black;
+	height: 50px;
+	text-align: center;
+}
+
+.form{
+	text-align: left;
+	padding-right: 20%;
+	padding-left: 20%;
+	padding-bottom: 20px;
+}
+
+.description{
+	text-align: center;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+.contacts{
+	text-align: center;
+	padding: 50px 20%;
+}
+
+.contacts p{
+	font-size: 20px;
+}
+
+@keyframes slidy {
+	0% { left: 0%; }
+	20% { left: 0%; }
+	25% { left: -100%; }
+	45% { left: -100%; }
+	50% { left: -200%; }
+	70% { left: -200%; }
+	75% { left: -300%; }
+	95% { left: -300%; }
+	100% { left: -400%; }
+}
+
+.search-input{
+	display: inline-block;
+	padding-right: 100px;
+}
+* {
+	box-sizing: border-box;
+}
+body{
+	padding-top: 100px;
+	margin: 0;
+	font-family: Istok Web, sans-serif;
+	font-weight: 100;
+}
+
+figure {
+	margin: 0;
+	font-family: Istok Web, sans-serif;
+	font-weight: 100;
+}
+div#captioned-gallery {
+	width: 100%; overflow: hidden;
+}
+figure.slider {
+	position: relative; width: 500%;
+	font-size: 0; animation: 30s slidy infinite;
+}
+figure.slider figure {
+	width: 20%; height: auto;
+	display: inline-block;  position: inherit;
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption {
+	position: absolute; bottom: 0;+
+	color: #fff; width: 100%;
+	font-size: 2rem; padding: .6rem;
+}
+
